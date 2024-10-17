@@ -429,6 +429,7 @@ dependencies = [
  "esp-metadata",
  "esp-riscv-rt",
  "esp-synopsys-usb-otg",
+ "esp32",
  "esp32c2",
  "esp32c3",
  "esp32c6",
@@ -569,6 +570,17 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a1a597f11c115df19df85bb38456ebf61c08400e254afe9244c542f702c7f744"
 dependencies = [
  "anyhow",
+]
+
+[[package]]
+name = "esp32"
+version = "0.33.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "85287b57fae3e318b62fd860787b1ac85a5e7bf91ad43eb66837c5e567218009"
+dependencies = [
+ "critical-section",
+ "vcell",
+ "xtensa-lx",
 ]
 
 [[package]]
