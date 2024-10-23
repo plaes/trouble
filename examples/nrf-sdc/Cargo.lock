@@ -1310,7 +1310,6 @@ dependencies = [
  "panic-probe",
  "static_cell",
  "trouble-example-apps",
- "trouble-host",
 ]
 
 [[package]]
